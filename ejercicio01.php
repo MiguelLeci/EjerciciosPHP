@@ -7,15 +7,12 @@
     <body>
         <?php
             $element = "";
-            $array1[] = "a";
-            $array1[] = "b";
-            $array1[] = "c";
-            $array1[] = "d";
-            $array1[] = "e";
+            $array1 = array("a", "b", "c");
 
             for ($num = 0;$num <= 5 ;$num++) {
                 $element = $array1[$num] ;
                 echo "$element";
+                echo "</br>";
             }
 
 
